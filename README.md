@@ -26,11 +26,11 @@ A simple full-stack Food Ordering System developed using HTML, CSS, JavaScript, 
 ![HomePage](screenshots/HomePage.png)
 ### Order Success
 ![OrderSuccess](screenshots/OrderSuccess.png)
-### Search Feature
+### Search Feature & Toggle Mode
 ![Search](screenshots/Search_Dark.png)
 ### Admin Panel
 ![AdminPage](screenshots/AdminPage.png)
 ### Delete Action
 ![DeleteAction](screenshots/DeleteAction.png)
-### Database Table
+### Final Database Table
 ![Database](screenshots/FinalDbTable.png)
