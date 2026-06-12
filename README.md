@@ -2,6 +2,9 @@
 
 A simple full-stack Food Ordering System developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
+## Live Demo
+https://foodordersystem.infinityfreeapp.com
+
 ## Features
 - Browse food menu
 - Search food items
