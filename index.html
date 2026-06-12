@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Foodie Express</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>🍔 Foodie Express</h2>
+
+<div>
+
+<input
+type="text"
+id="search"
+placeholder="Search Food"
+onkeyup="searchFood()">
+
+<button onclick="toggleDarkMode()">
+🌙
+</button>
+
+<a href="admin.php">
+Admin
+</a>
+
+</div>
+
+</nav>
+
+<section class="food-container">
+
+<!-- BURGER -->
+
+<div class="card">
+
+<img src="images/burger.jpg">
+
+<h3>Burger</h3>
+
+<p>₹120</p>
+
+<div class="qty">
+
+<button onclick="decreaseQty('burgerQty')">-</button>
+
+<input
+id="burgerQty"
+value="1"
+readonly>
+
+<button onclick="increaseQty('burgerQty')">+</button>
+
+</div>
+
+<button
+onclick="addToCart(
+'Burger',
+120,
+'burgerQty'
+)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- PIZZA -->
+
+<div class="card">
+
+<img src="images/pizza.jpg">
+
+<h3>Pizza</h3>
+
+<p>₹250</p>
+
+<div class="qty">
+
+<button onclick="decreaseQty('pizzaQty')">-</button>
+
+<input
+id="pizzaQty"
+value="1"
+readonly>
+
+<button onclick="increaseQty('pizzaQty')">+</button>
+
+</div>
+
+<button
+onclick="addToCart(
+'Pizza',
+250,
+'pizzaQty'
+)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- FRIES -->
+
+<div class="card">
+
+<img src="images/fries.jpg">
+
+<h3>Fries</h3>
+
+<p>₹80</p>
+
+<div class="qty">
+
+<button onclick="decreaseQty('friesQty')">-</button>
+
+<input
+id="friesQty"
+value="1"
+readonly>
+
+<button onclick="increaseQty('friesQty')">+</button>
+
+</div>
+
+<button
+onclick="addToCart(
+'Fries',
+80,
+'friesQty'
+)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- COFFEE -->
+
+<div class="card">
+
+<img src="images/coffee.jpg">
+
+<h3>Coffee</h3>
+
+<p>₹60</p>
+
+<div class="qty">
+
+<button onclick="decreaseQty('coffeeQty')">-</button>
+
+<input
+id="coffeeQty"
+value="1"
+readonly>
+
+<button onclick="increaseQty('coffeeQty')">+</button>
+
+</div>
+
+<button
+onclick="addToCart(
+'Coffee',
+60,
+'coffeeQty'
+)">
+Add To Cart
+</button>
+
+</div>
+
+</section>
+
+<section class="cart">
+
+<h2>Cart</h2>
+
+<ul id="cartList"></ul>
+
+<h3>
+Total ₹
+<span id="total">0</span>
+</h3>
+
+<input
+type="text"
+id="customerName"
+placeholder="Customer Name">
+
+<button onclick="placeOrder()">
+Place Order
+</button>
+
+<p id="message"></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
