@@ -23,7 +23,23 @@ A simple full-stack Food Ordering System developed using HTML, CSS, JavaScript, 
 - XAMPP 
 
 ## 📂 Folder Structure
-![Structure](screenshots/FileStructure.png)
+```
+FoodOrderingSystem/
+├── images/
+│   ├── burger.jpg
+│   ├── coffee.jpg
+│   ├── fries.jpg
+│   └── pizza.jpg
+├── screenshots/
+├── admin.php
+├── database.sql
+├── db.php
+├── delete_order.php
+├── index.html
+├── place_order.php
+├── script.js
+└── style.css
+```
 
 ## 📸 Screenshots
 ### Home Page
