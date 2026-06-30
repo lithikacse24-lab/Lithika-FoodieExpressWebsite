@@ -2,10 +2,11 @@
 
 A simple full-stack Food Ordering System developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
-## Live Demo
-https://foodordersystem.infinityfreeapp.com
+## 🌐 Live Demo
+**Live Website :** https://foodordersystem.infinityfreeapp.com
+>Deployment: Deployed on **InfinityFree**
 
-## Features
+## 🚀 Features
 - Browse food menu
 - Search food items
 - Place orders
@@ -15,16 +16,16 @@ https://foodordersystem.infinityfreeapp.com
 - Delete orders
 - Database integration using MySQL
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Frontend : HTML, CSS , JavaScript
 - Backend  : PHP
 - Database : MySQL
 - XAMPP 
 
-## Screenshots
-
-### Folder Structure
+## 📂 Folder Structure
 ![Structure](screenshots/FileStructure.png)
+
+## 📸 Screenshots
 ### Home Page
 ![HomePage](screenshots/HomePage.png)
 ### Order Success
@@ -37,3 +38,5 @@ https://foodordersystem.infinityfreeapp.com
 ![DeleteAction](screenshots/DeleteAction.png)
 ### Final Database Table
 ![Database](screenshots/FinalDbTable.png)
+
+**⭐ If you found this project useful, consider giving it a star on GitHub !**
