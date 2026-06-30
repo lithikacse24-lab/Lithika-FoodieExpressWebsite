@@ -25,20 +25,24 @@ A simple full-stack Food Ordering System developed using HTML, CSS, JavaScript, 
 ## 📂 Folder Structure
 ```
 FoodOrderingSystem/
+|
 ├── images/
 │   ├── burger.jpg
 │   ├── coffee.jpg
 │   ├── fries.jpg
 │   └── pizza.jpg
+|
 ├── screenshots/
-├── admin.php
-├── database.sql
+|
 ├── db.php
-├── delete_order.php
-├── index.html
+├── admin.php
 ├── place_order.php
-├── script.js
-└── style.css
+├── delete_order.php
+├── database.sql
+├── index.html
+├── style.css
+└── script.js
+└── README.md
 ```
 
 ## 📸 Screenshots
